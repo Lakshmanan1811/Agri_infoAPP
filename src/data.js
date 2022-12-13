@@ -1,16 +1,16 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      img: "https://images.unsplash.com/photo-1530464684439-723262c0d16e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8MTkxNjE4NHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60 ",
       title: "CROPS",
-      desc: "testing testing testing testing testing",
+      desc: "Manage your field crop with ease and find a way to urban greening",
       bg: "f5fafd",
     },
     {
       id: 2,
       img: "https://images.unsplash.com/photo-1492496913980-501348b61469?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       title: "ESSENTIAL SOIL FOR YOUR CROPS",
-      desc: "testing testing testing testing testing",
+      desc: "The next gen of choosing the best soil",
       bg: "fcf1ed",
     },
     {
@@ -25,52 +25,52 @@ export const sliderItems = [
   export const categories = [
     {
       id: 1,
-      img: "fhttps://images.pexels.com/photos/5886041/pexels-photo-5886041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "SHIRT STYLE!",
+      img: "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGxhbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      title: "Plant",
     },
     {
       id: 2,
-      img: "fhttps://images.pexels.com/photos/2983464/pexels-photo-2983464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      title: "LOUNGEWEAR LOVE",
+      img: "https://images.unsplash.com/photo-1530464684439-723262c0d16e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      title: "Crops",
     },
     {
       id: 3,
-      img: "fhttps://images.pexels.com/photos/5480696/pexels-photo-5480696.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      title: "LIGHT JACKETS",
+      img: "https://images.unsplash.com/photo-1618212624319-3cd9681707e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      title: "Soil",
     },
   ];
 
   export const popularProducts = [
     {
       id:1,
-      img:"fhttps://d3o2e4jr3mxnm3.cloudfront.net/Mens-Jake-Guitar-Vintage-Crusher-Tee_68382_1_lg.png",
+      img:"https://images.pexels.com/photos/1366083/pexels-photo-1366083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
     {
       id:2,
-      img:"fhttps://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://c1.wallpaperflare.com/preview/652/676/968/pearl-millet-bajra-cultivation-lingsugur.jpg",
     },
     {
       id:3,
-      img:"fhttps://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://c1.wallpaperflare.com/preview/741/608/870/delonix-regia-fabaceae-royal-poinciana-flame-tree.jpg",
     },
     {
       id:4,
-      img:"/https://www.burdastyle.com/pub/media/catalog/product/cache/7bd3727382ce0a860b68816435d76e26/107/BUS-PAT-BURTE-1320516/1170x1470_BS_2016_05_132_front.png",
+      img:"https://c1.wallpaperflare.com/preview/702/368/33/tea-garden-tea-plant-plantation.jpg",
     },
     {
       id:5,
-      img:"fhttps://images.ctfassets.net/5gvckmvm9289/3BlDoZxSSjqAvv1jBJP7TH/65f9a95484117730ace42abf64e89572/Noissue-x-Creatsy-Tote-Bag-Mockup-Bundle-_4_-2.png",
+      img:"https://img.freepik.com/premium-photo/drawings-earth_735775-132.jpg?size=626&ext=jpg",
     },
     {
       id:6,
-      img:"fhttps://d3o2e4jr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://img.freepik.com/free-photo/brown-sand-texture_181624-39.jpg?size=626&ext=jpg",
     },
     {
       id:7,
-      img:"fhttps://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://img.freepik.com/free-photo/top-view-dark-soil-background_179666-40013.jpg?auto=format&h=200",
     },
     {
       id:8,
-      img:"fhttps://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
+      img:"https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     },
   ]

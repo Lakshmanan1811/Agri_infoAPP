@@ -159,88 +159,71 @@ const Cart = () => {
       <Navbar />
       <Announcement />
       <Wrapper>
-        <Title>YOUR BAG</Title>
-        <Top>
-          <TopButton>CONTINUE SHOPPING</TopButton>
-          <TopTexts>
-            <TopText>Shopping Bag(2)</TopText>
-            <TopText>Your Wishlist (0)</TopText>
-          </TopTexts>
-          <TopButton type="filled">CHECKOUT NOW</TopButton>
-        </Top>
+        <Title>PLANTS AND CROPS DETAILS</Title>
+        
         <Bottom>
           <Info>
             <Product>
               <ProductDetail>
-                <Image src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1614188818-TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_b01b1013-cd8d-48e7-bed9-52db26515dc4.png?crop=1xw:1.00xh;center,top&resize=480%3A%2A" />
+                <Image src="https://images.unsplash.com/photo-1543257580-7269da773bf5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2hlYXR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> JESSIE THUNDER SHOES
+                    <b>Crops:</b> Wheat
                   </ProductName>
                   <ProductId>
-                    <b>ID:</b> 93813718293
+                    <b>soil type:</b> clay loam
                   </ProductId>
-                  <ProductColor color="black" />
+                  
                   <ProductSize>
-                    <b>Size:</b> 37.5
+                    <b>Harvesting time:</b>155 days
                   </ProductSize>
                 </Details>
               </ProductDetail>
               <PriceDetail>
                 <ProductAmountContainer>
-                  <Add />
-                  <ProductAmount>2</ProductAmount>
-                  <Remove />
+                  
+                  <ProductAmount>TEMPERATE REGION</ProductAmount>
+                  
                 </ProductAmountContainer>
-                <ProductPrice>$ 30</ProductPrice>
+                <ProductPrice>winter</ProductPrice>
               </PriceDetail>
             </Product>
             <Hr />
             <Product>
               <ProductDetail>
-                <Image src="https://i.pinimg.com/originals/2d/af/f8/2daff8e0823e51dd752704a47d5b795c.png" />
+                <Image src="https://images.unsplash.com/photo-1599328580087-15c9dab481f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGFkZHl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" />
                 <Details>
                   <ProductName>
-                    <b>Product:</b> HAKURA T-SHIRT
+                    <b>Crops:</b> PADDY
                   </ProductName>
                   <ProductId>
-                    <b>ID:</b> 93813718293
+                    <b>soil type:</b> clay soil
                   </ProductId>
-                  <ProductColor color="gray" />
+                  {/* <ProductColor color="gray" /> */}
                   <ProductSize>
-                    <b>Size:</b> M
+                    <b>Harvesting time:</b> 180 days aprox.
                   </ProductSize>
                 </Details>
               </ProductDetail>
               <PriceDetail>
                 <ProductAmountContainer>
-                  <Add />
-                  <ProductAmount>1</ProductAmount>
-                  <Remove />
+                  
+                  <ProductAmount>SOUTH REGION</ProductAmount>
+                  
                 </ProductAmountContainer>
-                <ProductPrice>$ 20</ProductPrice>
+                <ProductPrice>monsoon</ProductPrice>
               </PriceDetail>
             </Product>
           </Info>
           <Summary>
-            <SummaryTitle>ORDER SUMMARY</SummaryTitle>
-            <SummaryItem>
-              <SummaryItemText>Subtotal</SummaryItemText>
-              <SummaryItemPrice>$ 80</SummaryItemPrice>
-            </SummaryItem>
-            <SummaryItem>
-              <SummaryItemText>Estimated Shipping</SummaryItemText>
-              <SummaryItemPrice>$ 5.90</SummaryItemPrice>
-            </SummaryItem>
-            <SummaryItem>
-              <SummaryItemText>Shipping Discount</SummaryItemText>
-              <SummaryItemPrice>$ -5.90</SummaryItemPrice>
-            </SummaryItem>
-            <SummaryItem type="total">
-              <SummaryItemText>Total</SummaryItemText>
-              <SummaryItemPrice>$ 80</SummaryItemPrice>
-            </SummaryItem>
-            <Button>CHECKOUT NOW</Button>
+            <SummaryTitle>EXTENDED INFO</SummaryTitle><br />
+          
+            <p>
+            Paddy, also called rice paddy, small, level, flooded field used to cultivate rice in southern and eastern Asia. Wet-rice cultivation is the most prevalent method of farming in the Far East, where it utilizes a small fraction of the total land yet feeds the majority of the rural population.
+            
+            
+            </p><br/>
+            <Button>MORE INFO</Button>
           </Summary>
         </Bottom>
       </Wrapper>

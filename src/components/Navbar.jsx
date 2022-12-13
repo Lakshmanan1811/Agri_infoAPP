@@ -83,7 +83,6 @@ const Navbar = () => {
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
             
-              {/* <ShoppingCartOutlined /> */}
             
           </MenuItem>
         </Right>

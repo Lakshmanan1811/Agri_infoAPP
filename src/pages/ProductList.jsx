@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Navbar from "../components/Navbar";
 import Announcement from "../components/Announcement";
 import Products from "../components/Products";
-// import Newsletter from "../components/Newsletter";
+
 import Footer from "../components/Footer";
 import { mobile } from "../responsive";
 
@@ -41,38 +41,37 @@ const ProductList = () => {
     <Container>
       <Navbar />
       <Announcement />
-      <Title>Dresses</Title>
+      <Title>crops</Title>
       <FilterContainer>
         <Filter>
-          <FilterText>Filter Products:</FilterText>
+          <FilterText>Filter crops:</FilterText>
           <Select>
             <Option disabled selected>
-              Color
+              soil
             </Option>
-            <Option>White</Option>
-            <Option>Black</Option>
-            <Option>Red</Option>
-            <Option>Blue</Option>
-            <Option>Yellow</Option>
-            <Option>Green</Option>
+            <Option>aluvial soil</Option>
+            <Option>Black soil</Option>
+            <Option>Red soil</Option>
+            <Option>clay soil</Option>
+            
           </Select>
           <Select>
             <Option disabled selected>
-              Size
+              climate
             </Option>
-            <Option>XS</Option>
-            <Option>S</Option>
-            <Option>M</Option>
-            <Option>L</Option>
-            <Option>XL</Option>
+            <Option>summer</Option>
+            <Option>winter</Option>
+            <Option>monsoon</Option>
+            <Option>rainy</Option>
+            
           </Select>
         </Filter>
         <Filter>
-          <FilterText>Sort Products:</FilterText>
+          <FilterText>Sort crops by duration:</FilterText>
           <Select>
-            <Option selected>Newest</Option>
-            <Option>Price (asc)</Option>
-            <Option>Price (desc)</Option>
+            <Option selected>minimum </Option>
+            <Option>maximum </Option>
+            
           </Select>
         </Filter>
       </FilterContainer>
